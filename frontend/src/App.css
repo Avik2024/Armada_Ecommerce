@@ -1,0 +1,99 @@
+.customShadow{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/***user table***/
+.userTable{
+    @apply bg-white
+}
+.userTable th{
+    @apply border text-base font-medium
+}
+
+.userTable td{
+    @apply border text-base text-center
+}
+
+
+/**scrollbar hidden****/
+.scrollbar-none::-webkit-scrollbar{
+    display: none;
+}
+
+
+/** All Buttons **/
+
+
+.btn-grad {background-image: linear-gradient(to right, #fc1b17 0%, #e35d5b  51%, #9b2624  100%)}
+.btn-grad {
+   margin: 5px;
+   /*padding: 15px 45px; */
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ /** Footer Section **/
+
+ .footer {
+    background-color: #1c1c1c;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 50px;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex: 1 1 200px;
+    margin: 10px;
+  }
+  
+  .footer-section h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p,
+  .footer-section li {
+    font-size: 14px;
+    margin: 5px 0;
+    list-style: none;
+  }
+  
+  .footer-section ul {
+    padding: 0;
+  }
+  
+  .footer-social {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .footer-social a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .footer-social a:hover {
+    color: #bbb;
+  }
+  
+
+
+
+ 
